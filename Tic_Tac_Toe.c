@@ -1,9 +1,10 @@
 #include<stdio.h>
 char board[9]={'1','2','3','4','5','6','7','8','9'};
 int check();
+void system();
 void print_Board()
 {
-    
+    system("cls");
     printf("  %c  |  %c  |  %c\n",board[0],board[1],board[2]);
     printf("_____|_____|_____\n");
     printf("  %c  |  %c  |  %c\n",board[3],board[4],board[5]);
