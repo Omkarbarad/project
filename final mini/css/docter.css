@@ -1,0 +1,58 @@
+/* Navbar styling */
+.navbar {
+    background-color: #007bff; /* Change navbar background color */
+    padding: 1rem;
+}
+
+/* Navbar brand (logo or name) */
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Toggle button for mobile view */
+.navbar-toggler {
+    border-color: #fff;
+}
+
+/* Navbar items */
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+/* Links inside the navbar */
+.nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* Hover effect for navbar links */
+.nav-link:hover {
+    color: #d1e9ff;
+    text-decoration: underline;
+}
+
+/* Active link style */
+.nav-link.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Disabled link style */
+.nav-link.disabled {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Mobile view responsiveness */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+}
